@@ -1,26 +1,26 @@
-/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java  -classpath /Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/conf:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/logback-classic-1.1.2.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/logback-core-1.1.2.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/mongo-java-driver-3.8.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/mongodb-binding-0.17.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/slf4j-api-1.7.25.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/snappy-java-1.1.7.1.jar site.ycsb.Client -load -db site.ycsb.db.MongoDbClient -s -P workloads/workloada -p mongodb.url=mongodb://127.0.0.1:27017/ycsb?w=1
+/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java  -classpath /Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/conf:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/logback-classic-1.1.2.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/logback-core-1.1.2.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/mongo-java-driver-3.8.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/mongodb-binding-0.17.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/slf4j-api-1.7.25.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/mongodb-binding/lib/snappy-java-1.1.7.1.jar site.ycsb.Client -load -db site.ycsb.db.MongoDbClient -s -P workloads/workloada -p mongodb.url=mongodb://127.0.0.1:27017/ycsb?w=1
 mongo client connection created with mongodb://127.0.0.1:27017/ycsb?w=1
-[OVERALL], RunTime(ms), 13896
-[OVERALL], Throughput(ops/sec), 71.96315486470927
+[OVERALL], RunTime(ms), 7705
+[OVERALL], Throughput(ops/sec), 129.78585334198573
 [TOTAL_GCS_PS_Scavenge], Count, 1
-[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 18
-[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.1295336787564767
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 7
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.09085009733939
 [TOTAL_GCS_PS_MarkSweep], Count, 0
 [TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
 [TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
 [TOTAL_GCs], Count, 1
-[TOTAL_GC_TIME], Time(ms), 18
-[TOTAL_GC_TIME_%], Time(%), 0.1295336787564767
+[TOTAL_GC_TIME], Time(ms), 7
+[TOTAL_GC_TIME_%], Time(%), 0.09085009733939
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 6654.0
-[CLEANUP], MinLatency(us), 6652
-[CLEANUP], MaxLatency(us), 6655
-[CLEANUP], 95thPercentileLatency(us), 6655
-[CLEANUP], 99thPercentileLatency(us), 6655
+[CLEANUP], AverageLatency(us), 4370.0
+[CLEANUP], MinLatency(us), 4368
+[CLEANUP], MaxLatency(us), 4371
+[CLEANUP], 95thPercentileLatency(us), 4371
+[CLEANUP], 99thPercentileLatency(us), 4371
 [INSERT], Operations, 1000
-[INSERT], AverageLatency(us), 12680.975
-[INSERT], MinLatency(us), 2252
-[INSERT], MaxLatency(us), 8847359
-[INSERT], 95thPercentileLatency(us), 6083
-[INSERT], 99thPercentileLatency(us), 9511
+[INSERT], AverageLatency(us), 6912.316
+[INSERT], MinLatency(us), 1088
+[INSERT], MaxLatency(us), 4175871
+[INSERT], 95thPercentileLatency(us), 5559
+[INSERT], 99thPercentileLatency(us), 11447
 [INSERT], Return=OK, 1000

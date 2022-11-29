@@ -1,4 +1,4 @@
-/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java  -classpath /Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/conf:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/concurrentlinkedhashmap-lru-1.4.2.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/jna-4.5.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/jna-platform-4.5.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/log4j-1.2.17.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/orientdb-binding-0.17.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/orientdb-client-2.2.37.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/orientdb-core-2.2.37.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/slf4j-api-1.7.25.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/slf4j-log4j12-1.7.10.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/snappy-java-1.1.0.1.jar site.ycsb.Client -load -db site.ycsb.db.OrientDBClient -P workloads/workloada -p orientdb.url=plocal:localhost:2480 -p orientdb.password=admin
+/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java  -classpath /Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/conf:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/concurrentlinkedhashmap-lru-1.4.2.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/jna-4.5.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/jna-platform-4.5.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/log4j-1.2.17.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/orientdb-binding-0.17.0.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/orientdb-client-2.2.37.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/orientdb-core-2.2.37.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/slf4j-api-1.7.25.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/slf4j-log4j12-1.7.10.jar:/Users/lydia/Desktop/architecture/TP3/ArchitectureTP3_2.0/ycsb-0.17.0/orientdb-binding/lib/snappy-java-1.1.0.1.jar site.ycsb.Client -load -db site.ycsb.db.OrientDBClient -P workloads/workloada -p orientdb.url=plocal:localhost:2480 -p orientdb.password=admin
 OrientDB 2.2.37 (build a7541e7ceeabf592dd9a7b2928b6c023cbc73193, branch 2.2.x) configuration dump:
 - ENVIRONMENT
   + environment.dumpCfgAtStartup = false
@@ -294,27 +294,27 @@ OrientDB 2.2.37 (build a7541e7ceeabf592dd9a7b2928b6c023cbc73193, branch 2.2.x) c
   + cache.local.enabled = true
 - DISTRIBUTED
   + distributed.shutdownTimeout = 2000
-[OVERALL], RunTime(ms), 3433
-[OVERALL], Throughput(ops/sec), 291.29041654529567
+[OVERALL], RunTime(ms), 1905
+[OVERALL], Throughput(ops/sec), 524.9343832020998
 [TOTAL_GCS_PS_Scavenge], Count, 4
-[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 82
-[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 2.3885814156714242
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 31
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 1.627296587926509
 [TOTAL_GCS_PS_MarkSweep], Count, 1
-[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 27
-[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.7864841246722983
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 25
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 1.3123359580052494
 [TOTAL_GCs], Count, 5
-[TOTAL_GC_TIME], Time(ms), 109
-[TOTAL_GC_TIME_%], Time(%), 3.1750655403437222
+[TOTAL_GC_TIME], Time(ms), 56
+[TOTAL_GC_TIME_%], Time(%), 2.9396325459317585
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 66.0
-[CLEANUP], MinLatency(us), 66
-[CLEANUP], MaxLatency(us), 66
-[CLEANUP], 95thPercentileLatency(us), 66
-[CLEANUP], 99thPercentileLatency(us), 66
+[CLEANUP], AverageLatency(us), 56.0
+[CLEANUP], MinLatency(us), 56
+[CLEANUP], MaxLatency(us), 56
+[CLEANUP], 95thPercentileLatency(us), 56
+[CLEANUP], 99thPercentileLatency(us), 56
 [INSERT], Operations, 1000
-[INSERT], AverageLatency(us), 584.708
-[INSERT], MinLatency(us), 146
-[INSERT], MaxLatency(us), 18975
-[INSERT], 95thPercentileLatency(us), 1884
-[INSERT], 99thPercentileLatency(us), 4695
+[INSERT], AverageLatency(us), 367.061
+[INSERT], MinLatency(us), 125
+[INSERT], MaxLatency(us), 17167
+[INSERT], 95thPercentileLatency(us), 807
+[INSERT], 99thPercentileLatency(us), 1891
 [INSERT], Return=OK, 1000
