@@ -29,4 +29,4 @@ _Redis_
 - unclear af atm.  
 
 ### Results
-The results of each test can be found in the directory "results" after running the tests. Each database implementation has its own folder of results within the results directory. Furhtermore, there are seperate folders allocated for each workloads run (A and B). 
+The results of each test can be found in the directory "results" after running the tests. Each database implementation has its own folder of results within the results directory. Furhtermore, there are seperate folders allocated for each workloads run (Workload A and Workload B). 
