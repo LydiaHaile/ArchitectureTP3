@@ -1,0 +1,25 @@
+/usr/bin/java  -classpath /home/ubuntu/redis/ycsb-0.17.0/conf:/home/ubuntu/redis/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/core-0.17.0.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/redis/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/home/ubuntu/redis/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/home/ubuntu/redis/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -load -db site.ycsb.db.RedisClient -s -P workloads/workloadb -p redis.host=127.0.0.1 -p redis.port=6379 -p redis.cluster=true
+[OVERALL], RunTime(ms), 1209
+[OVERALL], Throughput(ops/sec), 827.129859387924
+[TOTAL_GCS_Copy], Count, 5
+[TOTAL_GC_TIME_Copy], Time(ms), 18
+[TOTAL_GC_TIME_%_Copy], Time(%), 1.488833746898263
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 5
+[TOTAL_GC_TIME], Time(ms), 18
+[TOTAL_GC_TIME_%], Time(%), 1.488833746898263
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1827.0
+[CLEANUP], MinLatency(us), 1827
+[CLEANUP], MaxLatency(us), 1827
+[CLEANUP], 95thPercentileLatency(us), 1827
+[CLEANUP], 99thPercentileLatency(us), 1827
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 594.201
+[INSERT], MinLatency(us), 225
+[INSERT], MaxLatency(us), 17775
+[INSERT], 95thPercentileLatency(us), 2337
+[INSERT], 99thPercentileLatency(us), 4895
+[INSERT], Return=OK, 1000

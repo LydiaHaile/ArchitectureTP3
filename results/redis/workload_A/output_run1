@@ -1,13 +1,32 @@
-/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java  -classpath /Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/conf:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/core-0.17.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/Users/lydia/Desktop/ArchitectureTP3_2.0/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -t -db site.ycsb.db.RedisClient -s -P workloads/workloada -p redis.host=127.0.0.1 -p redis.port=6379 -p redis.cluster=true
-redis.clients.jedis.exceptions.JedisNoReachableClusterNodeException: No reachable node in cluster
-	at redis.clients.jedis.JedisSlotBasedConnectionHandler.getConnection(JedisSlotBasedConnectionHandler.java:57)
-	at redis.clients.jedis.JedisSlotBasedConnectionHandler.getConnectionFromSlot(JedisSlotBasedConnectionHandler.java:74)
-	at redis.clients.jedis.JedisClusterCommand.runWithRetries(JedisClusterCommand.java:116)
-	at redis.clients.jedis.JedisClusterCommand.run(JedisClusterCommand.java:31)
-	at redis.clients.jedis.JedisCluster.hmset(JedisCluster.java:424)
-	at site.ycsb.db.RedisClient.update(RedisClient.java:156)
-	at site.ycsb.DBWrapper.update(DBWrapper.java:198)
-	at site.ycsb.workloads.CoreWorkload.doTransactionUpdate(CoreWorkload.java:814)
-	at site.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:647)
-	at site.ycsb.ClientThread.run(ClientThread.java:122)
-	at java.lang.Thread.run(Thread.java:748)
+/usr/bin/java  -classpath /home/ubuntu/redis/ycsb-0.17.0/conf:/home/ubuntu/redis/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/core-0.17.0.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/ubuntu/redis/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/ubuntu/redis/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar:/home/ubuntu/redis/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/home/ubuntu/redis/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar site.ycsb.Client -t -db site.ycsb.db.RedisClient -s -P workloads/workloada -p redis.host=127.0.0.1 -p redis.port=6379 -p redis.cluster=true
+[OVERALL], RunTime(ms), 977
+[OVERALL], Throughput(ops/sec), 1023.5414534288639
+[TOTAL_GCS_Copy], Count, 4
+[TOTAL_GC_TIME_Copy], Time(ms), 22
+[TOTAL_GC_TIME_%_Copy], Time(%), 2.2517911975435005
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 4
+[TOTAL_GC_TIME], Time(ms), 22
+[TOTAL_GC_TIME_%], Time(%), 2.2517911975435005
+[READ], Operations, 508
+[READ], AverageLatency(us), 302.0551181102362
+[READ], MinLatency(us), 88
+[READ], MaxLatency(us), 16447
+[READ], 95thPercentileLatency(us), 1125
+[READ], 99thPercentileLatency(us), 3501
+[READ], Return=OK, 508
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1796.0
+[CLEANUP], MinLatency(us), 1796
+[CLEANUP], MaxLatency(us), 1796
+[CLEANUP], 95thPercentileLatency(us), 1796
+[CLEANUP], 99thPercentileLatency(us), 1796
+[UPDATE], Operations, 492
+[UPDATE], AverageLatency(us), 438.2865853658537
+[UPDATE], MinLatency(us), 168
+[UPDATE], MaxLatency(us), 11583
+[UPDATE], 95thPercentileLatency(us), 1312
+[UPDATE], 99thPercentileLatency(us), 4495
+[UPDATE], Return=OK, 492

@@ -294,27 +294,27 @@ OrientDB 2.2.37 (build a7541e7ceeabf592dd9a7b2928b6c023cbc73193, branch 2.2.x) c
   + cache.local.enabled = true
 - DISTRIBUTED
   + distributed.shutdownTimeout = 2000
-[OVERALL], RunTime(ms), 1926
-[OVERALL], Throughput(ops/sec), 519.2107995846313
+[OVERALL], RunTime(ms), 6091
+[OVERALL], Throughput(ops/sec), 164.17665407978984
 [TOTAL_GCS_PS_Scavenge], Count, 4
-[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 24
-[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 1.2461059190031152
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 65
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 1.0671482515186341
 [TOTAL_GCS_PS_MarkSweep], Count, 1
-[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 24
-[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 1.2461059190031152
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 46
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.7552126087670333
 [TOTAL_GCs], Count, 5
-[TOTAL_GC_TIME], Time(ms), 48
-[TOTAL_GC_TIME_%], Time(%), 2.4922118380062304
+[TOTAL_GC_TIME], Time(ms), 111
+[TOTAL_GC_TIME_%], Time(%), 1.8223608602856673
 [CLEANUP], Operations, 1
-[CLEANUP], AverageLatency(us), 63.0
-[CLEANUP], MinLatency(us), 63
-[CLEANUP], MaxLatency(us), 63
-[CLEANUP], 95thPercentileLatency(us), 63
-[CLEANUP], 99thPercentileLatency(us), 63
+[CLEANUP], AverageLatency(us), 98.0
+[CLEANUP], MinLatency(us), 98
+[CLEANUP], MaxLatency(us), 98
+[CLEANUP], 95thPercentileLatency(us), 98
+[CLEANUP], 99thPercentileLatency(us), 98
 [INSERT], Operations, 1000
-[INSERT], AverageLatency(us), 397.419
-[INSERT], MinLatency(us), 126
-[INSERT], MaxLatency(us), 32639
-[INSERT], 95thPercentileLatency(us), 852
-[INSERT], 99thPercentileLatency(us), 3225
+[INSERT], AverageLatency(us), 872.184
+[INSERT], MinLatency(us), 151
+[INSERT], MaxLatency(us), 26239
+[INSERT], 95thPercentileLatency(us), 3793
+[INSERT], 99thPercentileLatency(us), 8823
 [INSERT], Return=OK, 1000
