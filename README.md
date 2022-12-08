@@ -1,4 +1,4 @@
-# ArchitectureTP3_2.0
+# ArchitectureTP3
 
 ### Instructions 
 To run the tests on the different database implementations follow the commands listed below. 
