@@ -2,11 +2,12 @@
 
 ### Instructions: all database implementations at once
 - In the root of this directory run the command
-  *./run_test.sh*
 
-- If permissions error occurs - make the "run_test.sh" file an executable by running 
+  *./run_tests.sh*
 
-  *chmod +x run_test.sh*
+- If permissions error occurs - make the "run_tests.sh" file an executable by running 
+
+  *chmod +x run_tests.sh*
   
   then, run the first command once again. 
 
