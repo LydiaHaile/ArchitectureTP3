@@ -22,8 +22,6 @@ for iter in {1..3}
 # run orientdb three times on workload b – save output in directory results/orientdb/workload_B
 for iter in {1..3}
     do
-        cd targetDB
-
         # start services defined in docker-compose-orientdb.yml
         docker-compose -f docker-compose-orientdb.yml up -d 
 
@@ -36,5 +34,7 @@ for iter in {1..3}
 
         # stop services defined in docker-compose-orientdb.yml
         docker-compose -f docker-compose-orientdb.yml down
+
+        cd ..
     done
 
