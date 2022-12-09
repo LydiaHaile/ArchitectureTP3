@@ -36,6 +36,8 @@ for iter in {1..3}
     docker stop $(docker ps -a -q)
     #removes network
     docker network rm mongoCluster
+     
+    cd ..
 done
 
 
@@ -75,4 +77,6 @@ for iter in {1..3}
     docker stop $(docker ps -a -q)
     #removes network
     docker network rm mongoCluster
+
+    cd ..
 done
