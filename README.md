@@ -11,7 +11,7 @@
   
   then, run the first command once again. 
 
-### Instructions: all database implementations at individually 
+### Instructions: all database implementations individually 
 To run the tests on the different database implementations indivudually follow the instructions listed below. 
 _OrientDB_
 - In the root of this directory run the command
