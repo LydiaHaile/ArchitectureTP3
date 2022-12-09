@@ -1,8 +1,17 @@
 # ArchitectureTP3
 
-### Instructions 
-To run the tests on the different database implementations follow the commands listed below. 
+### Instructions: all database implementations at once
+- In the root of this directory run the command
+  *./run_test.sh*
 
+- If permissions error occurs - make the "run_test.sh" file an executable by running 
+
+  *chmod +x run_test.sh*
+  
+  then, run the first command once again. 
+
+### Instructions: all database implementations at individually 
+To run the tests on the different database implementations indivudually follow the instructions listed below. 
 _OrientDB_
 - In the root of this directory run the command
   
